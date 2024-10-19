@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piracy..i mean.. Privacy</title>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="css/privacy.css">
+    <script src="js/privacy.js" defer></script>
+    <style>
+        body {
+            height: 2000px;
+            cursor: none; /* Hide default cursor */
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        /* Custom cursor styles */
+        #cursor {
+            position: absolute;
+            width: 150px;
+            height: 80px;
+            pointer-events: none;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video background -->
+    <div class="video-container">
+        <video id="privacyVideo" src="assets/urPrivacyP_v3.mp4" poster="assets/locketPoster.jpg" preload="auto" playsinline></video>
+    </div>
+    <img id="cursor" src="assets/key.png" alt="custom cursor">
+</body>
+</html>
